@@ -29,13 +29,9 @@ public class Vencimiento {
 
         vencido = (anioVen < anio) || (anioVen == anio && mesVen < mes) || (anioVen == anio && mesVen == mes && diaVen < dia);
 
-        if (vencido == true){
-            System.out.println("Es Verdadero que el medicamento esta o estara vencido para la fecha de consulta");
-        }
-        else{
-            System.out.println("Es Falso que el medicamento esta o estara vencido para la fecha de consulta");
-        }
-            
+        
+        System.out.println("Es " + vencido + " que el medicamento esta o estara vencido para la fecha de consulta");
+        
         sc.close();
 
     }
