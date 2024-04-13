@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 public class Vencimiento {
+
     public static void main(String[] args){
 
         int dia, mes, anio, diaVen, mesVen, anioVen;
@@ -26,9 +27,17 @@ public class Vencimiento {
         System.out.println( "Fecha Consulta: " + dia +"-"+mes+"-"+anio);
 
 
-        vencido = (anio < anioVen) || (anio == anioVen && mes < mesVen) || (anio == anioVen && mes == mesVen && dia < diaVen);
-        System.out.println(vencido);
+        vencido = (anioVen < anio) || (anioVen == anio && mesVen < mes) || (anioVen == anio && mesVen == mes && diaVen < dia);
+
+        if (vencido == true){
+            System.out.println("Es Verdadero que el medicamento esta o estara vencido para la fecha de consulta");
+        }
+        else{
+            System.out.println("Es Falso que el medicamento esta o estara vencido para la fecha de consulta");
+        }
+            
         sc.close();
+
     }
     
 }
