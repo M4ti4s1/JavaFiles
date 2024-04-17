@@ -14,7 +14,8 @@ public class Calculator {
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
-            System.out.println("5. Exit");
+            System.out.println("5. Power");
+            System.out.println("6. Exit");
             option = sc.nextInt();
 
 
@@ -36,14 +37,21 @@ public class Calculator {
 
                 case 4:
                     num1 = sc.nextFloat();
-                    num2 = sc.nextFloat();
+                    do{
+                        num2 = sc.nextFloat();
+                    }while (num2 == 0);
                     System.out.println(num1/num2);
-
+                case 5:
+                    num1 = sc.nextInt();
+                    num2 = sc.nextInt();
+                    double num3 = num1;
+                    double num4 = num2;
+                    System.out.println(Math.pow(num3,num4));
                 default:
                     continue;
             }
         }
-        while (option != 5);
+        while (option != 6);
         System.out.println("Fuck I'm good");
     }
     
