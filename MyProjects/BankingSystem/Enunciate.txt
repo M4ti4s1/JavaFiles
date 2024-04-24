@@ -5,7 +5,6 @@ Sure, here's the exercise:
 Create a Java program to simulate a simple banking system. Your program should include the following classes:
 
 1. **Customer**: Represents a bank customer. Each customer should have a name, address, and one or more accounts. The class should have methods to add accounts and retrieve them.
-    Do it with 1 account first
 
 2. **Account**: Represents a bank account. Each account should have an account number and a balance. The class should have methods to deposit money, withdraw money, and check the balance.
 
