@@ -13,7 +13,7 @@ class Ejercicio2a {
         }
         System.out.println(mul);
         sc.close();
-
+                        
     }
 }
 
