@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*  Escriba un programa Java que lea una fecha con el formato dd-mm-aaaa, luego la
 despliegue usando el formato dd de xxxx de aaaa.
 Por ejemplo, si se lee 26-04-2024, se deberá desplegar 26 de abril de 2024.     */
@@ -38,5 +39,10 @@ public class DiaMesAnio{
         }else{
             System.out.println("Invalid data");
         }
+=======
+public class DiaMesAnio{
+    public static void main(String[] args){
+        
+>>>>>>> 7aa5afd131f3f7737825d09ef3fe8a6a3a88453d
     }
 }
