@@ -10,8 +10,8 @@ cuál es el problema con el o los datos de entrada. Sea preciso con el mensaje.
 
 
 12. Escriba una variante del programa definido para el problema anterior, tal que permita a un usuario calcular
-uno o más coeficientes binomiales, según lo que requiera. Determine usted el modo en que permitirá al
 usuario realizar lo indicado.
+uno o más coeficientes binomiales, según lo que requiera. Determine usted el modo en que permitirá al
 */
 import java.util.Scanner;
 class Ejercicio11 {

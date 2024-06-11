@@ -15,7 +15,7 @@ public class AverageGrade {
         // Assign grades to the array
         for(int i=0; i<grades.length; i++){
             do {
-                grade = (float) sc.nextFloat();
+                grade = sc.nextFloat();
 
             }while(grade < 0);
 

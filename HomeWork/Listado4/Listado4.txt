@@ -1,0 +1,222 @@
+Consideración General.
+Las validaciones que se soliciten contemplan que usted indique el error al usuario y vuelva a leer el
+dato que se está validando hasta que se ingrese un valor dentro del rango permitido.
+
+                    Parte I
+
+
+1. Construya un programa Java que genere la siguiente serie:
+1/2 + 1/5 + 1/8 + 1/11 + 1/ 14 + … + 1/x.
+Se pide que:
+    a) Consulte al usuario el número de términos a generar. Valide que no se trate de un valor negativo. Si ingresa el valor cero, significa que no debe generar la serie.
+    b) Presente la sumatoria anterior, desplegando cada término como una fracción.
+    c) Presente el resultado de la suma, como un valor decimal.
+
+
+2. Construya un programa Java que permita determinar el rango de notas de un estudiante, siendo los rangos siguientes: A[1.0 - 2.9]; B[3.0 – 3.9]; C[4.0 – 5.5] y D[5.6 – 7.0].
+Para lo anterior deberá leer una secuencia de notas. La secuencia concluirá cuando se lea un
+cero. Por ejemplo, la siguiente es una secuencia posible: 4.5 6.3 3.9 7.0 4.7 6 1 0
+Debe validar que las notas ingresadas se encuentran dentro de la escala, esto es, entre 1 y 7. Si el usuario ingresa como primer valor un cero, significa que no hay datos que procesar y el programa debe concluir.
+Usted debe leer las notas del estudiante, calcular el promedio, determinar el rango que le corresponde y desplegar este último dato.
+
+
+
+
+
+3. Construya un programa Java que permita determinar cuántos estudiantes tienen promedio entre los rangos: A[1.0 - 2.9]; B[3.0 – 3.9]; C[4.0 – 5.5] y D[5.6 – 7.0].
+Para lo anterior deberá leer una secuencia de promedios. La secuencia concluirá cuando se lea
+un cero. Por ejemplo, la siguiente es una secuencia posible: 4.5 6.3 3.9 7.0 4.7 6.1 0
+Debe validar que los promedios ingresados se encuentran dentro de la escala, esto es, entre 1 y 7. Si el usuario ingresa como primer valor un cero, significa que no hay datos que procesar y el programa debe concluir.
+Se espera que el programa despliegue el número de estudiantes con promedio en el rango A, el
+número de estudiantes con promedio en el rango B, etc.
+
+
+
+4. Se requiere construir un programa Java que permita sumar números ingresados por un usuario,
+mientras la suma no supere un valor máximo. Dicho valor también debe ser indicado por el
+usuario. Si el valor máximo para la suma, que ha ingresado el usuario, es inferior al primer
+número a sumar, entonces se deberá terminar la ejecución informando al usuario la situación.
+5. Construya un programa Java que permita determinar cuántos estudiantes tienen promedio
+entre los rangos siguientes: A[1.0 - 2.9]; B[3.0 – 3.9]; C[4.0 – 5.5] y D[5.6 – 7.0].
+Para lo anterior deberá leer una secuencia de notas de uno o más estudiantes. La secuencia de
+notas de un estudiante concluirá cuando se lea un cero. La secuencia de notas concluirá al
+ingresar un segundo cero consecutivo. Por ejemplo, la siguiente es una serie posible: 4.5 6.3
+3.9 7.0 4.7 6.1 0 4.8 6.4 0 7.0 7.0 7.0 6.8 6.9 0 0
+Debe validar que las notas ingresadas se encuentran dentro de la escala, esto es, entre 1 y 7. Si
+el usuario ingresa como primer valor un cero y luego notas válidas, debe ignorar el cero. Si el
+usuario ingresa inicialmente un doble cero significa que no hay datos que procesar y el
+programa debe concluir.
+Usted debe leer las notas de cada estudiante, calcular el promedio y determinar el rango que le
+corresponde.
+Se espera que el programa, al finalizar la lectura de datos, despliegue el número de estudiantes
+con promedio en el rango A, el número de estudiantes con promedio en el rango B, etc.
+Parte II
+1. En un casino se ofrecen 3 distintos platos para el almuerzo de cada día. Se desea construya un
+programa Java que procese la venta de almuerzos del día y presente el número de unidades
+vendidas por plato, ordenados de mayor a menor. Si dos o más platos tienen la misma cantidad
+de unidades, entonces se deben presentar ordenados según número del plato.
+La secuencia de datos corresponde al número de cada plato vendido (1, 2 o 3) y finaliza cuando
+se ingresa el valor 0 dos veces. Por ejemplo, una secuencia sería: 3 3 2 1 3 1 0 2 3 3 2 2 2 1 2 1 3
+1 0 0
+Y el resultado debería presentarse del siguiente modo:
+Unidades vendidas del plato 2: 6
+Unidades vendidas del plato 3: 6
+Unidades vendidas del plato 1: 5
+Debe validar que los datos sean correctos, es decir que el número de cada plato se encuentre en
+el rango 1 a 3. Recuerde que solo un doble cero significa término de la secuencia de datos.
+UNIVERSIDAD DEL BIO-BIO
+FACULTAD DE CIENCIAS EMPRESARIALES
+ESCUELA DE INGENIERÍA CIVIL INFORMÁTICA
+Guía 4 Java
+Estructuras de Control
+Introducción a la Programación 2024-1 3
+2. Se desea contar con un programa Java que, dadas las precipitaciones de un año en varias
+localidades, determine el total de precipitaciones por trimestre para cada localidad. Para ello se
+debe leer, para cada día, lo siguiente:
+día, mes, precipitaciones, localidad
+Donde:
+• día es un número, entre 1 y 31, dependiendo del mes.
+• mes es un entero entre 1 y 12.
+• precipitaciones es un número que expresa cantidad de mm (milímetros) de agua caída
+para el día indicado.
+• localidad es el número de la localidad, el cual varía entre 1 y 3
+Se debe validar que los datos de cada día sean correctos. Esto incluye que el día se corresponda
+con el mes referido. Por ejemplo, no es válido indicar día 31 para el mes 4 (abril).
+Se desconoce inicialmente el número de días a procesar, lo que se ha indicado es que cuando se
+ingrese cero para día deberá entenderse que el ingreso de datos ha finalizado. Los datos no se
+ingresan necesariamente ordenados por fecha.
+Por otra parte, las localidades son:
+Número Nombre
+1 San Carlos
+2 Coihueco
+3 Chillán
+Se espera que el programa presente un listado como el siguiente (incluyendo la línea divisoria):
+PRECIPITACIONES MENSUALES POR LOCALIDAD
+Trimestre San Carlos Coihueco Chillán
+------------------------------------------------------------
+Primero 999,9 999,9 999,9
+Segundo 999,9 999,9 999,9
+Tercero 999,9 999,9 999,9
+Cuarto 999,9 999,9 999,9
+Los trimestres corresponden a los meses que se indican a continuación:
+• Primer trimestre: enero, febrero, marzo
+• Segundo trimestre: abril, mayo, junio
+• Tercer trimestre: julio, agosto, septiembre
+• Cuarto trimestre: octubre, noviembre, diciembre
+UNIVERSIDAD DEL BIO-BIO
+FACULTAD DE CIENCIAS EMPRESARIALES
+ESCUELA DE INGENIERÍA CIVIL INFORMÁTICA
+Guía 4 Java
+Estructuras de Control
+Introducción a la Programación 2024-1 4
+3. Un banco desea contar con un programa Java que determine el saldo de sus cuentas de ahorro,
+para lo anterior deberá considerar los siguientes datos en entrada:
+Nombre del cliente, saldo inicial y número de transacciones a procesar
+Donde:
+• Saldo inicial debe ser mayor o igual a cero.
+• Número de transacciones a procesar debe ser mayor o igual a cero.
+Se deben validar los datos que se ingresan, de manera que lo anterior se cumpla.
+A continuación, deberá leer las transacciones realizadas por el cliente, las cuales se desean
+procesar. Por cada transacción se deberá leer:
+Tipo de transacción, monto de la transacción
+Donde
+• Tipo de transacción es
+o 1 si se trata de un depósito
+o 2 si se trata de un giro
+• Monto de la transacción debe ser mayor o igual a cero.
+Los datos anteriores también deben validarse.
+Además, es preciso verificar que cuando se ingrese un giro, el monto no sea superior al saldo de
+la cuenta en ese instante. En caso de producirse lo indicado anteriormente, no se deberá
+procesar la transacción, sino contabilizarse como una operación fallida (no procesada).
+Finalizado el procesamiento de las transacciones del cliente, se deberá presentar un informe
+que resuma lo realizado, junto con el saldo final del cliente. Para ello considere el formato que
+se indica a continuación.
+RESUMEN TRANSACCIONES BANCARIAS
+================================
+Nombre del cliente : XXXXXXXXXXXXXXXX
+Saldo inicial : $99.999.999
+Número de depósitos : 999
+Número de giros : 999
+Saldo final : $99.999.999
+Número de giros fallidos : 999
+UNIVERSIDAD DEL BIO-BIO
+FACULTAD DE CIENCIAS EMPRESARIALES
+ESCUELA DE INGENIERÍA CIVIL INFORMÁTICA
+Guía 4 Java
+Estructuras de Control
+Introducción a la Programación 2024-1 5
+4. La constructora XYZ, tiene 3 tipos de casas. La casa A de 136 m2, la Casa B de 75 m2 y la casa C
+de 100 m2. El valor del metro cuadrado es de 20 UF. Además, la constructora ofrece la
+posibilidad de construir estacionamientos y bodegas, con un valor fijo de 160 y 120 UF,
+respectivamente. La constructora requiere saber el total de ventas diarias por concepto de
+viviendas, estacionamientos y bodegas según tipo de casa (en unidades y $). Para lo anterior, se
+requiere emitir un informe con el siguiente formato:
+Tipo casa # Viviendas # Estacionam. # bodegas Total ($)
+A
+B
+C
+Entonces, cada vez que un cliente sea atendido, se debe registrar el tipo de casa que está
+adquiriendo, cantidad de estacionamientos y bodegas que compra. Consulte al usuario si se
+debe atender a otro usuario (o si finalizaron las ventas del día).
+Suponga que los datos leídos son siempre válidos.
+5. La constructora XYZ quedó tan contenta con su trabajo que ahora necesita saber la cantidad de
+sacos de cemento que necesita para construir lo solicitado durante el día (viviendas,
+estacionamientos y bodegas). Por lo tanto, al final del día el usuario desea poder escoger si
+imprime el resumen de ventas diario o el informe de costo en materiales del día, sus formatos
+se indican a continuación:
+I) Informe Resumen de Venta Diario
+Tipo casa # Viviendas # Estacionam. # bodegas Total ($)
+A
+B
+C
+II) Informe de costo en materiales
+Tipo casa # Viviendas # Estacionam. # bodegas # Sacos cemento Total ($)
+A
+B
+C
+Para calcular la cantidad de sacos de cemento, la constructora ha señalado que un saco de
+cemento rinde 0.4 m2
+Además, para calcular el monto en $ de la inversión necesaria se sabe que cada saco de cemento
+tiene un costo de $15.500.
+Suponga que los datos leídos son siempre válidos.
+UNIVERSIDAD DEL BIO-BIO
+FACULTAD DE CIENCIAS EMPRESARIALES
+ESCUELA DE INGENIERÍA CIVIL INFORMÁTICA
+Guía 4 Java
+Estructuras de Control
+Introducción a la Programación 2024-1 6
+6. Se desea contar con un programa que ayude a determinar el equipo ganador de un concurso de
+programación local. Este concurso se ha inspirado en las reglas que utiliza el concurso de
+programación de la ACM.
+En particular, las reglas del concurso local son las que se indican a continuación:
+Durante la competencia, los equipos tienen alrededor de 2 horas para resolver 3 problemas. Se
+deben programar las soluciones con C, C++, Java o Python. Los programas enviados por los
+equipos se compilan y ejecutan con unos ciertos datos de entrada, si el programa falla al
+calcular la solución, el equipo es notificado del error y puede enviar nuevamente el programa o
+probar con otros problemas.
+El ganador es el equipo que resuelve más problemas. Si hay equipos empatados con el mismo
+número de problemas resueltos, el orden de clasificación se calcula a partir de los que han
+tardado menos en resolver los problemas.
+Ejemplo: Si un equipo A ha enviado sus soluciones para 2 problemas a los 60 y 120 minutos
+desde el inicio del concurso, y otro equipo B lo ha hecho a los 80 y 90 minutos, la determinación
+del ganador entre ambos equipos se haría mirando los tiempos, para el equipo A: 60+120 = 180
+minutos y para el equipo B: 80+90 = 170 minutos. En este caso, el equipo B ganaría.
+Como penalización se agregan 20 minutos a un equipo por cada solución incorrecta que haya
+enviado. En el ejemplo anterior, si el equipo A hubiera enviado 2 soluciones incorrectas para su
+primer problema, su tiempo final sería: 20+20+60+120 = 220.
+Si dos o más equipos empatan en el número de problemas resueltos y en el tiempo total, ganará
+el que haya entregado menos soluciones incorrectas.
+Para construir el programa solicitado considere que solo competirán 2 equipos, cada uno de los
+cuales tiene un nombre consistente en una única palabra. Los problemas se identifican por su
+número, 1 a 3. La entrada de datos tendrá el siguiente formato:
+<Nombre equipo 1><Nombre equipo 2>
+<Nombre equipo><número problema> <minutos en que entrega solución><resultado>
+<Nombre equipo><número problema> <minutos en que entrega solución><resultado>
+…
+FIN
+Donde:
+• resultado es 1 si la solución entregada es correcta, 0 en caso contrario.
+• La palabra FIN indica el término de los datos.
+La salida debe consistir en el nombre del equipo ganador.
+Suponga, además, que los datos leídos son válidos y que siempre habrá uno y solo un ganador.
+Pruebe el programa anterior, definiendo 4 distintos casos de prueba o situaciones.

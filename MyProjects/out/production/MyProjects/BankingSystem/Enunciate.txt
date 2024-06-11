@@ -1,0 +1,17 @@
+Sure, here's the exercise:
+
+**Banking System**
+
+Create a Java program to simulate a simple banking system. Your program should include the following classes:
+
+1. **Customer**: Represents a bank customer. Each customer should have a name, address, and one or more accounts. The class should have methods to add accounts and retrieve them.
+
+2. **Account**: Represents a bank account. Each account should have an account number and a balance. The class should have methods to deposit money, withdraw money, and check the balance.
+
+Your program should also include a main class (`BankingSystem`) with the following functionalities:
+
+- Create at least two customers and a few accounts for each customer.
+- Perform some transactions such as depositing money into an account, withdrawing money from an account, and transferring money between accounts.
+- Display the updated balance after each transaction.
+
+Feel free to extend the functionalities or add more classes as needed. The goal is to create a simple but functional banking system using classes and methods in Java.
