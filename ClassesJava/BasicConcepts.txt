@@ -1,0 +1,8 @@
+
+Classes:    A class is a blueprint or a template for create objects
+            It defines the properties and behaviors that objects of the class will have 
+
+Objects:    Are instances of a class, are entityes that has state and behavior
+
+Methods:    Are functions define within a class that performs specific actions
+            Can manipulate the internal state of an object and provide a way to interat with it
