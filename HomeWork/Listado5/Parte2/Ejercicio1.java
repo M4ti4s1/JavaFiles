@@ -43,5 +43,6 @@ public class Ejercicio1{
         System.out.println("Cantidad de Alumnos con la nota mas alta: " + cantMayor);
         System.out.println("Promedio general: "+ promCurso);
         System.out.println("Porcentaje de aprobacion: "+ porcApro +"%");
+        sc.close();
     }
 }
